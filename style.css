@@ -18,8 +18,8 @@
     top: 40%;
 }
 
-@media(max-width: 990px){
-    .posicao{
-        top:60% !important;
+@media (max-width: 920px) and (min-width: 750px) {
+    .posicao {
+        top: 60% !important; /* Ajuste o valor conforme necessário */
     }
 }
