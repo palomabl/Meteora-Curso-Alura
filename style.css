@@ -14,13 +14,32 @@
     background-color: #9353FF !important;
 }
 
-.posicao{
+.posicao {
     position: absolute;
-    top: 40%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Centraliza perfeitamente */
+    color: rgb(255, 255, 255);
+    text-align: center; /* Garante alinhamento central do texto */
 }
 
-@media (max-width: 920px) and (min-width: 750px) {
+@media (max-width: 992px) {
     .posicao {
-        top: 60% !important; /* Ajuste o valor conforme necessário */
+        top: 70%; /* Ajusta a posição vertical */
+        left: 50%; /* Ainda centralizado horizontalmente */
+        transform: translate(-50%, -50%);
+    }
+}
+
+@media (min-width: 993px) {  
+    .banner3 {
+        left: 25%;
+
+    }
+
+    .banner2 {
+        left: 75%;
+        white-space: nowrap;
+
     }
 }
